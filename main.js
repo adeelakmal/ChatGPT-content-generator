@@ -8,7 +8,6 @@ fetch("/.netlify/functions/getApiKey")
   .then((data) => {
     // Handle the response data
     apiKey = data.data;
-    console.log(apiKey);
   })
   .catch((error) => {
     // Handle any errors
